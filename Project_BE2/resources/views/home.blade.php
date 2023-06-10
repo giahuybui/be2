@@ -4,7 +4,7 @@
 <!-- Hero Section Begin -->
 <section class="hero">
     <div class="hero__slider owl-carousel">
-        <div class="hero__items set-bg" data-setbg="{{asset('storage/img')}}/hero/hero-1.jpg">
+        <div class="hero__items set-bg" data-setbg="{{ URL::asset('img/')}}/hero/hero-1.jpg">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-5 col-lg-7 col-md-8">
@@ -25,7 +25,7 @@
                 </div>
             </div>
         </div>
-        <div class="hero__items set-bg" data-setbg="{{asset('storage/img')}}/hero/hero-4.jpg">
+        <div class="hero__items set-bg" data-setbg="{{ URL::asset('img')}}/hero/hero-4.jpg">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-5 col-lg-7 col-md-8">
@@ -33,7 +33,7 @@
                 </div>
             </div>
         </div>
-        <div class="hero__items set-bg" data-setbg="{{asset('storage/img')}}/hero/hero-2.jpg">
+        <div class="hero__items set-bg" data-setbg="{{ URL::asset('img')}}/hero/hero-2.jpg">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-5 col-lg-7 col-md-8">
@@ -54,7 +54,7 @@
                 </div>
             </div>
         </div>
-        <div class="hero__items set-bg" data-setbg="{{asset('storage/img')}}/hero/hero-3.jpg">
+        <div class="hero__items set-bg" data-setbg="{{ URL::asset('img')}}/hero/hero-3.jpg">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-5 col-lg-7 col-md-8">
@@ -74,7 +74,7 @@
             <div class="col-lg-7 offset-lg-4">
                 <div class="banner__item">
                     <div class="banner__item__pic">
-                        <img src="{{asset('storage/img')}}/banner/banner-1.jpg" alt="">
+                        <img src="{{ URL::asset('img')}}/banner/banner-1.jpg" alt="">
                     </div>
                     <div class="banner__item__text">
                         <h2>Clothing Collections 2030</h2>
@@ -85,7 +85,7 @@
             <div class="col-lg-5">
                 <div class="banner__item banner__item--middle">
                     <div class="banner__item__pic">
-                        <img src="{{asset('storage/img')}}/banner/banner-2.jpg" alt="">
+                        <img src="{{ URL::asset('img')}}/banner/banner-2.jpg" alt="">
                     </div>
                     <div class="banner__item__text">
                         <h2>Accessories</h2>
@@ -96,7 +96,7 @@
             <div class="col-lg-7">
                 <div class="banner__item banner__item--last">
                     <div class="banner__item__pic">
-                        <img src="{{asset('storage/img')}}/banner/banner-3.jpg" alt="">
+                        <img src="{{ URL::asset('img')}}/banner/banner-3.jpg" alt="">
                     </div>
                     <div class="banner__item__text">
                         <h2>Shoes Spring 2030</h2>
@@ -128,10 +128,10 @@
                 <div class="product__item">
                     <div class="product__item__pic set-bg" data-setbg="{{asset('uploads')}}/{{$product->photo}}">
                         <ul class="product__hover">
-                            <li><a href="#"><img src="{{asset('storage/img')}}/icon/heart.png" alt=""></a></li>
-                            <li><a href="#"><img src="{{asset('storage/img')}}/icon/compare.png" alt="">
+                            <li><a href="#"><img src="{{ URL::asset('img')}}/icon/heart.png" alt=""></a></li>
+                            <li><a href="#"><img src="{{ URL::asset('img')}}/icon/compare.png" alt="">
                                     <span>Compare</span></a></li>
-                            <li><a href="{{ route('detail', $product->id) }}"><img src="{{asset('storage/img')}}/icon/search.png" alt=""></a></li>
+                            <li><a href="{{ route('detail', $product->id) }}"><img src="{{ URL::asset('img')}}/icon/search.png" alt=""></a></li>
                         </ul>
                     </div>
                     <div class="product__item__text">
@@ -172,10 +172,10 @@
                     <a href="">
                         <div class="product__item__pic set-bg" data-setbg="{{asset('uploads')}}/{{$product->photo}}">
                             <ul class="product__hover">
-                                <li><a href="#"><img src="{{asset('storage/img')}}/icon/heart.png" alt=""></a></li>
-                                <li><a href="#"><img src="{{asset('storage/img')}}/icon/compare.png" alt="">
+                                <li><a href="#"><img src="{{ URL::asset('img')}}/icon/heart.png" alt=""></a></li>
+                                <li><a href="#"><img src="{{ URL::asset('img')}}/icon/compare.png" alt="">
                                         <span>Compare</span></a></li>
-                                <li><a href="{{ route('detail', $product->id) }}"><img src="{{asset('storage/img')}}/icon/search.png" alt=""></a></li>
+                                <li><a href="{{ route('detail', $product->id) }}"><img src="{{asset('img')}}/icon/search.png" alt=""></a></li>
                             </ul>
                         </div>
                     </a>
@@ -225,7 +225,7 @@
             </div>
             <div class="col-lg-4">
                 <div class="categories__hot__deal">
-                    <img src="{{asset('storage/img')}}/product-sale.png" alt="">
+                    <img src="{{ URL::asset('img')}}/product-sale.png" alt="">
                     <div class="hot__deal__sticker">
                         <span>Sale Of</span>
                         <h5>$29.99</h5>
@@ -268,12 +268,12 @@
         <div class="row">
             <div class="col-lg-8">
                 <div class="instagram__pic">
-                    <div class="instagram__pic__item set-bg" data-setbg="{{asset('storage/img')}}/instagram/instagram-1.jpg"></div>
-                    <div class="instagram__pic__item set-bg" data-setbg="{{asset('storage/img')}}/instagram/instagram-2.jpg"></div>
-                    <div class="instagram__pic__item set-bg" data-setbg="{{asset('storage/img')}}/instagram/instagram-3.jpg"></div>
-                    <div class="instagram__pic__item set-bg" data-setbg="{{asset('storage/img')}}/instagram/instagram-4.jpg"></div>
-                    <div class="instagram__pic__item set-bg" data-setbg="{{asset('storage/img')}}/instagram/instagram-5.jpg"></div>
-                    <div class="instagram__pic__item set-bg" data-setbg="{{asset('storage/img')}}/instagram/instagram-6.jpg"></div>
+                    <div class="instagram__pic__item set-bg" data-setbg="{{ URL::asset('img')}}/instagram/instagram-1.jpg"></div>
+                    <div class="instagram__pic__item set-bg" data-setbg="{{ URL::asset('img')}}/instagram/instagram-2.jpg"></div>
+                    <div class="instagram__pic__item set-bg" data-setbg="{{ URL::asset('img')}}/instagram/instagram-3.jpg"></div>
+                    <div class="instagram__pic__item set-bg" data-setbg="{{ URL::asset('img')}}/instagram/instagram-4.jpg"></div>
+                    <div class="instagram__pic__item set-bg" data-setbg="{{ URL::asset('img')}}/instagram/instagram-5.jpg"></div>
+                    <div class="instagram__pic__item set-bg" data-setbg="{{ URL::asset('img')}}/instagram/instagram-6.jpg"></div>
                 </div>
             </div>
             <div class="col-lg-4">

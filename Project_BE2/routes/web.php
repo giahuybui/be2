@@ -145,3 +145,4 @@ Route::get('useVoucher', [CartController::class, 'useVoucher'])->name('useVouche
 
 //Home
 Route::get('/home', [HomeController::class, 'getProductsForHome'])->name('home');
+Route::get('/', [HomeController::class, 'getProductsForHome'])->name('home');
